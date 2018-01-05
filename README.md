@@ -3,6 +3,8 @@ Python Topic Modeling environment
 > Python-Implementationen für LDA und word2vec mit gensim https://radimrehurek.com/gensim/
 
 ## LDA
+Jupyter-Notebook: https://github.com/Wurmloch/TopicModeling/LDA.ipynb
+
 Originaler Algorithmus von David M. Blei et al. http://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf
 
 ## word2vec

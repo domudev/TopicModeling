@@ -1,6 +1,6 @@
 # TopicModeling
 Python Topic Modeling environment
-> Python implementatios for LDA and word2vec nwith gensim https://radimrehurek.com/gensim/
+> Python implementatios for LDA and word2vec with gensim https://radimrehurek.com/gensim/
 
 ## LDA
 Original algorithm by David M. Blei et al. http://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf

@@ -17,6 +17,7 @@ Python-Projekt der entsprechenden Arbeit 'Semantische Textanalyse mit Fokussieru
   - Research Paper https://arxiv.org/abs/1605.02019
   
 ### Installation
+> LDA2vec ist für Python 2.7 geschrieben, Mit Python 3+ sind Änderungen bzgl. der Imports notwendig
 1. Master-zip herunterladen https://github.com/cemoody/lda2vec
   a. Windows: Visual C++ Build-Tools 2015 herunterladen (Windows 8.1 SDK explizit auswählen) http://landinghub.visualstudio.com/visual-cpp-build-tools
 2. Folgende Module installieren (mit pip): numpy, chainer, spacy (benötigt Build Tools)

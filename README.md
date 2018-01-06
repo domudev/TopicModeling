@@ -24,6 +24,7 @@ Python-Projekt der entsprechenden Arbeit 'Semantische Textanalyse mit Fokussieru
   * c. **Python 3+**: Folgender Fehler wird vermutlich auftreten `No module named dirichlet_likelihood` o.ä.
     * **Lösung**: Änderung von Import-statements notwendig: `import lda2vec.dirichlet_likelihood` und nicht `import dirichlet_likelihood`
     * **Durchführung**: lda2vec deinstallieren, wenn bereits installiert; Änderung der Import-Statements für alle importierten Module in der Datei `init.py` im Master-Ordner von lda2vec durchführen
+    * **Short-Path**: Angepasste Master-Zip-Datei für Python 3 herunterladen (Keine Garantie): [Download](https://github.com/Wurmloch/TopicModeling/raw/master/LDA2vec/lda2vec-master-py3.zip)
 
 2. Folgende Module installieren (mit pip oder conda): *numpy, chainer, spacy* - benötigt Build Tools (Siehe 1a & 1b)
 3. LDA2vec mit `python setup.py install` in Master-Ordner installieren

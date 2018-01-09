@@ -28,3 +28,6 @@ Python-Projekt der entsprechenden Arbeit 'Semantische Textanalyse mit Fokussieru
 
 2. Folgende Module installieren (mit pip oder conda): *numpy, chainer, spacy* - benötigt Build Tools (Siehe 1a & 1b)
 3. LDA2vec mit `python setup.py install` in Master-Ordner installieren
+
+## Quellen
+Siehe https://github.com/Wurmloch/TopicModeling/tree/master/Referenzen

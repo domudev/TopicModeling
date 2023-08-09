@@ -20,9 +20,9 @@ search_terms = ['Alps']
 separator = '== References =='
 for term in search_terms:
     full_content = get_page(term).split(separator, 1)[0]
-	sentence_list = sentence_pat.findall(full_content)
-	for sentence in sentence_list:
-		doc_list.append(sentence)
+    sentence_list = sentence_pat.findall(full_content)
+    for sentence in sentence_list:
+        doc_list.append(sentence)
     
 # Parameter: doc list w/ text, number of topics, num of words per topic doc
 lda = ldabuilder.build_lda(doc_list,2,10)
